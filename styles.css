@@ -22,3 +22,12 @@ span {
 .white-background-div h2 {
     color: blue;
 }
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
