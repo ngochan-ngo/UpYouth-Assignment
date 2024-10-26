@@ -1,0 +1,24 @@
+span {
+    color: blue;
+}
+
+.blue-background-text {
+    background-color: blue;
+    color: white;
+    font-weight: 800;
+}
+
+.blue-background-div {
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+}
+
+.white-background-div {
+    background-color: white;
+    color: black;
+}
+
+.white-background-div h2 {
+    color: blue;
+}
