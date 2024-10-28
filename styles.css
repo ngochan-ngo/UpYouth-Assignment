@@ -1,0 +1,256 @@
+* {
+    font-family: "DM Sans", san-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* sticky navigation bar */
+nav {
+    position: fixed;
+    margin-top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255,255,255,0.9);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border: 0.1rem #CBD5E1;
+    border-style: none none solid none;
+}
+
+nav button {
+    margin-right: 2rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: 10rem; */
+    padding-top: 10rem;
+}
+
+/* rem or px? */
+header {
+    height: 45rem;
+}
+
+.left-div {
+    display: inline-block;
+    /* left: 4rem;
+    top: 10rem; */
+}
+
+.right-div {
+    display: inline-block;
+    /* left: 200px;
+    top: 50px; */
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 6rem;
+    font-weight: bold;
+    line-height: 10rem;
+}
+
+.left-div button {
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+
+.logo {
+    height: 1.5rem;
+}
+
+span {
+    color: #0749E6;
+}
+
+.numbers {
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.blue-background-text {
+    background-color: #1d4ed8;
+    color: white;
+    font-weight: 800;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.blue-background-div {
+    border-radius: 20px;
+    background-color: #0749E6;
+    color: white;
+    padding: 4rem 3.6rem 2rem;
+    margin: 2rem;
+    text-align: center;
+}
+
+.white-background-div {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+/*     width: 500px; */
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.white-background-div h2 {
+    color: #0749E6;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 4rem;
+}
+
+/* make a class="button" with common button properties such as padding, font-weight, border, border-radius */
+button {
+    padding: 0.6rem 1rem;
+    border-radius: 45px;
+    border: 1px solid #CBD5E1;
+}
+
+#blue-button, #join-us-button {
+    background-color: #0749E6;
+    color: #FFF;
+}
+
+#blue-button:hover, #join-us-button:hover {
+    background-color: blue;
+}
+
+.white-button {
+    background-color: #FFF;
+    color: #000;
+}
+
+.white-button:hover {
+    background-color: #0749E6;
+    color: #FFF;
+    transition: 1.5s;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3.75rem;
+    font-weight: bold;
+    margin-top: 1.2rem;
+    margin-bottom: 2rem;
+    line-height: 5rem;
+}
+
+#further-inquiries {
+    height: 36rem;
+    display: flex;
+    justify-content: center;
+}
+
+#further-inquiries h2 {
+    margin-top: 16rem;
+}
+
+/* our community nurtures young founders from 0 to 1 */
+
+.white-box-container {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.white-box img {
+    width: 30rem;
+    display: inline-block;
+    border-radius: 2rem;
+    padding: 0rem 4rem;
+}
+
+.white-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* height: 21rem; */
+}
+
+.white-box-content {
+    display: flex;
+    justify-content: space-around;
+    width: 36rem;
+    padding: 4rem;
+    flex-direction: column;
+}
+
+.white-box-content p, .white-box-content button, .white-box-content h3 {
+    margin-top: 1.6rem;
+}
+
+#centered-text {
+    text-align: center;
+}
+ 
+.numbers-container {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.our-numbers {
+    text-align: center;
+    display: inline-block;
+}
+
+/* 4-box layout */
+.container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+h3 {
+    color: #0749E6;
+}
+
+.blue-background-div h3 {
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.blue-background-div p {
+    margin: 0rem 1.5rem 1.5rem;
+}
+
+.white-background-section {
+    display: inline-block;
+}
+
+section {
+    margin: 1.5rem;
+}
+
+footer {
+    border: 0.1rem #CBD5E1;
+    border-style: solid none none none;
+    padding: 2rem;
+}
+
+/* for debugging purposes */
+/* * {    border: red 0.5px solid; } */
